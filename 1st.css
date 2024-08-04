@@ -1,0 +1,607 @@
+#na{
+    height: 70px;
+    width: 100%;
+    display: grid;
+    grid-template-columns:3fr 4fr .7fr .9fr;
+    align-items: center;
+}
+#na1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.4rem;
+    padding-left: 40px;
+    /* display: flex; */
+}
+#na1 h3::first-letter{
+    font-size: 2.6rem;
+    color: rgb(142, 43, 235);
+}
+      
+#na2{
+    display: flex;
+    gap: 80px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+
+}
+#na2 a{
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+}
+
+#na2 a:hover{
+    text-decoration: underline rgb(179, 7, 241); 
+}
+#na3 select{
+    background-color: rgba(255, 255, 255, 0); 
+    border: transparent;
+}
+
+#btn {
+    width: 120px;
+    font-size: 14px;
+    background-color: rgb(254, 253, 255);
+    border: none;
+    border-radius: 20px;
+    color: black;
+}
+#btn:hover{
+    background-color: blueviolet;
+    color: white;
+}
+
+/* -------------- */
+
+#bgi{
+    height: 125vh;
+    width: 100%;
+    background: url(/Assets/gradient.jpg);
+    background-size: cover;
+}
+
+#bo{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    align-items: center; 
+    padding-top: 80px;
+}
+#bo h1, #bo h2{
+    font-size: 3rem;
+}
+
+#bo p{
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+#bo1 video{
+    height:54vh;
+    margin: 30px 0 0 410px;
+   border-radius: 20px;
+}
+
+#bobu{
+    background-color: rgb(157, 79, 230);
+    transition: .2s all;
+    
+}
+#bobu:hover{
+    background-color: rgb(164, 90, 233);
+    transform: scale(103%);
+    box-shadow: 1px 1px 10px 0px rgb(61, 58, 62);
+}
+
+#use{
+    display: grid;
+    grid-template-columns: 7fr 1fr;
+    margin-top: 40px;
+}
+#use1{
+    padding-left: 40px;
+}
+
+#blog{
+    display: flex;
+    justify-content: space-evenly;
+}
+#blog1{
+    border: 2px solid blueviolet;
+    border-radius: 20px;
+    transition: .5s all;
+    padding: 10px;
+    height: 35vh;
+}
+
+#blog1:hover{
+    transform: scale(105%);
+    border-color:  blueviolet;
+    /* border: 2px solid; */
+    box-shadow: 1px 1px 9px 1px black;
+    border: 2px solid black;
+}
+#blog2{
+    border: 2px solid blueviolet;
+    border-radius: 20px;
+    transition: .5s all;
+    padding: 10px;
+}
+
+#blog2:hover{
+    transform: scale(105%);
+    border-color:  blueviolet;
+    box-shadow: 1px 1px 9px 1px black;
+    border: 2px solid black;
+
+}
+#blog3{
+    border: 2px solid blueviolet;
+    border-radius: 20px;
+    transition: .5s all;
+    padding: 10px;
+}
+
+#blog3:hover{
+    transform: scale(105%);
+    border-color:  blueviolet;
+    box-shadow: 1px 1px 9px 1px black;
+    border: 2px solid black;
+
+}
+#blog4{
+    border: 2px solid blueviolet;
+    border-radius: 20px;
+    transition: .5s all;
+    padding: 10px;
+}
+
+#blog4:hover{
+    transform: scale(105%);
+    border-color:  rgb(255, 255, 255);
+    box-shadow: 1px 1px 9px 1px black;
+    border: 2px solid black;
+}
+
+#mac{
+    background-color: aqua;
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    margin: 30px 0 0 160px;
+text-align: start;
+}
+#mac1{
+    background-color: rgb(242, 0, 255);
+    height: 100vh;
+    width: 40%;
+    background-image: url(/Assets/macro-eye-iris.jpg);
+    background-size: cover;
+}
+#mac2{
+    background-color: rgb(28, 26, 32);
+    height: 100vh;
+    width: 60%;
+    padding: 70px;
+}
+#mac2 ul{
+    text-decoration: none;
+}
+#bu{
+    background-color: blueviolet;
+    transition: .2s all;
+}
+#bu:hover{
+    background-color: rgb(164, 90, 233);
+    transform: scale(103%);
+    box-shadow: 1px 1px 10px 0px rgb(221, 183, 244);
+}
+#usebg{
+    background-color: rgb(217, 218, 218);
+}
+
+#elebg{
+    background-color: black;
+    margin: 30px 0 0 0;
+    margin: 0 0 30px 0;
+    height: 100vh;
+
+}
+#emb h1{
+    font-family: "Arsenal SC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 3.4rem;
+}
+#ele{
+    display: flex;
+    /* justify-content: space-evenly; */
+    column-gap: 20px;
+    justify-content: center;
+    margin: 0 0 20px 0;
+}
+#ele1{
+    height: 30vh;
+    width: 25vw;
+    padding: 15px;
+    background-color: #19171f;
+    border: 1px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 2;
+}
+
+#ele2{
+    height: 30vh;
+    width: 25vw;
+    padding: 15px;
+    background-color: #19171f;
+    border: 1px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 2;
+}
+#ele3{
+    height: 30vh;
+    width: 25vw;
+    padding: 15px;
+    background-color: #19171f;
+    border: 1px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 2;
+}
+#conv{
+    display: flex;
+    /* justify-content: space-evenly; */
+    column-gap: 20px;
+    justify-content: center;
+
+}
+#conv1{
+    height: 30vh;
+    width: 25vw;
+    padding: 15px;
+    background-color: #19171f;
+    border: 1px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 2;
+}
+#conv2{
+    height: 30vh;
+    width: 25vw;
+    padding: 15px;
+    background-color: #19171f;
+    border: 1px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 2;
+}
+#conv3{
+    height: 30vh;
+    width: 25vw;
+    padding: 15px;
+    background-color: #19171f;
+    border: 1px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 2;
+}
+#grid{
+    background-color:rgb(234, 227, 218);
+
+
+}
+#gr{
+    display: grid;
+    grid-template-columns: 4fr 3fr 4fr;
+}
+
+#gr1{
+    background-color:rgb(234, 227, 218);
+
+    height: 40vh;
+    padding: 150px 0 0 150px;
+}
+#gr2{
+    background-color:rgb(234, 227, 218);
+
+    height: 60vh ;
+    background: url(/Assets/andras-vas-Bd7gNnWJBkU-unsplash.jpg);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+#gr3{
+    background-color:rgb(234, 227, 218);
+
+    padding: 0 70px 70px 70px;
+}
+
+#gri{
+    
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    background-color:rgb(234, 227, 218);
+}
+#gri1{
+    height: 60vh;
+    width: 40%;
+    background-color:rgb(234, 227, 218);
+    padding: 0px 0 0 150px;
+
+}
+#gri1 h1{
+    font-size: 4rem;
+}
+#gri2{
+    height: 60vh;
+    width: 20%;
+    background-color:rgb(234, 227, 218);
+    font-size: 20px;
+    text-align: end;
+    padding: 140px 0 0 0;
+}
+#gri3{
+    background-color:rgb(234, 227, 218);
+
+    height: 60vh;
+    width: 40%;
+    background-color:rgb(234, 227, 218);
+    padding: 40px 60px 0 60px;
+
+}
+
+#fl{
+    height: 28vh;
+    width: 100%;
+    display: flex;
+}
+#fl1{
+    height: 28vh;
+    width: 60%;
+    background-color:rgb(234, 227, 218);
+    padding: 0 0 0 150px;
+
+}
+#fl2{
+    height: 28vh;
+    width: 40%;
+    background-color:rgb(234, 227, 218);
+    padding: 40px 50px 0 110px ;
+    text-align: end;
+}
+
+#cic{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#pri{
+    display: block;
+    text-align: center;
+
+}
+#pribg{
+    background: linear-gradient(90deg, rgb(187, 177, 225), rgb(239, 191, 191));
+
+}
+#pay{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    align-items: center;
+}
+#pay1{
+    height: 70vh;
+    width: 20vw;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    transition: .2s all;
+}
+#pay1:hover{
+    background-color: blueviolet;
+    color: #ffffff; 
+    transform: scale(101%);
+    box-shadow: 1px 1px 14px 3px rgb(115, 114, 117);
+}
+
+#pay2{
+    height: 70vh;
+    width: 20vw;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    transition: .2s all;
+
+}
+#pay2:hover{
+    background-color: blueviolet;
+    color: #ffffff; 
+    transform: scale(101%);
+    box-shadow: 1px 1px 14px 3px rgb(115, 114, 117);
+}
+#pay3{
+    height: 70vh;
+    width: 20vw;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    transition: .2s all;
+}
+#pay3:hover{
+    background-color: blueviolet;
+    color: #ffffff; 
+    transform: scale(101%);
+    box-shadow: 1px 1px 14px 3px rgb(115, 114, 117);
+}
+#fre{
+    height: 10vh;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+#post{
+    height: 10vh;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    margin: 70px 0 30px 0;
+}
+#post1{
+    height: 10vh;
+    width: 80%;
+    background-color: #ffffff;
+    padding: 0 0 0 70px;
+    line-height: 20px;
+}
+#post2{
+    height: 10vh;
+    width: 20%;
+    background-color: #ffffff;
+    padding: 20px 0 0 90px;
+}
+#blo{
+    height: 60vh;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+#blo1{
+    height: 50vh;
+    width: 19%;
+    background-color: #ffffff;
+    transition: .4s all;
+}
+#blo1:hover{
+    transform: scale(106%);
+}
+#blo2{
+    height: 50vh;
+    width: 19%;
+    background-color: #ffffff;
+    transition: .4s all;
+}
+#blo2:hover{
+    transform: scale(106%);
+}
+#blo3{
+    height: 50vh;
+    width: 19%;
+    background-color: #ffffff;
+    transition: .4s all;
+}
+#blo3:hover{
+    transform: scale(106%);
+}
+
+#foot{
+    height: 40vh;
+    width: 100%;
+    background-color: #eaddf4;
+    display: flex;
+}
+#foot1{
+    height: 40vh;
+    width: 36%;
+    background-color: #eaddf4;
+    padding: 50px 30px 20px 60px;
+}
+
+ #foot1 h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.8rem;
+ }
+ #foot1 h2::first-letter{
+    font-size: 3rem;
+    color: blueviolet;
+ }
+#foot2{
+    height: 40vh;
+    width: 13%;
+    background-color: #eaddf4;
+    padding: 50px 30px 20px 0px;
+
+}
+#foot2 p{
+    font-size: 13px;
+}
+#foot3{
+    height: 40vh;
+    width: 13%;
+    background-color: #eaddf4;
+    padding: 50px 30px 20px 0px;
+}
+#foot3 p{
+    font-size: 13px;
+}
+#foot4{
+    height: 40vh;
+    width: 13%;
+    background-color: #eaddf4;
+    padding: 50px 30px 20px 0px;
+}
+#foot4 p{
+    font-size: 13px;
+}
+#foot5{
+    height: 40vh;
+    width: 30%;
+    background-color: #eaddf4;
+    padding: 50px 30px 20px 20px;
+}
+#foot5 p{
+    font-size: 13px;
+}
+#flogo{
+    height: 15vh;
+    width: 100%;
+    background-color: #eaddf4;
+    display: flex;
+    margin: 2px 0 0 0;
+}
+#flogo1{
+    height: 15vh;
+    width: 30%;
+    background-color: #eaddf4;
+    color: blueviolet;
+    line-height: 5px;
+    padding: 30px 0 0 60px;
+    font-size: 19px;
+}
+#flogo2{
+    height: 15vh;
+    width: 40%;
+    background-color: #eaddf4;
+display: inline;
+justify-content: space-evenly;
+display: inline;
+text-align: center;
+}
+#flogo2 p{
+   font-size: 10px;
+    
+    font-size: 13px;
+}
+#flogo3{
+    height: 15vh;
+    width: 30%;
+    background-color: #eaddf4;
+    line-height: 5px;
+    padding: 30px 0 0 360px;
+    font-size: 22px;
+    color: blueviolet;
+
+}
+
+
